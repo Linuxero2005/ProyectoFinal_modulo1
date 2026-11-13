@@ -1,0 +1,7 @@
+1455793 ?        00:00:00 systemd
+1455796 ?        00:00:00 (sd-pam)
+1455805 ?        00:00:00 sshd-session
+1455806 pts/4    00:00:00 bash
+1455866 pts/4    00:00:00 ejecutar.sh
+1455934 pts/4    00:00:00 capturar.sh
+1455947 pts/4    00:00:00 ps
