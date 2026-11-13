@@ -1,0 +1,2 @@
+ERROR: no se pudo abrir el archivo 'no_existe.txt'
+salida: 1

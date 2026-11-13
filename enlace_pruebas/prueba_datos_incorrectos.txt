@@ -1,0 +1,15 @@
+== DISCO 101
+ERROR: DISCO=101 fuera de rango (0-100) en el registro 1
+salida: 1
+== PROCESOS 2001
+ERROR: PROCESOS=2001 fuera de rango (0-2000) en el registro 1
+salida: 1
+== PERMISOS 201
+ERROR: PERMISOS=201 fuera de rango (0-200) en el registro 1
+salida: 1
+== DISCO -1
+ERROR: DISCO=-1 fuera de rango (0-100) en el registro 1
+salida: 1
+== HOLA 5
+ERROR: categoria desconocida 'HOLA' en el registro 1
+salida: 1

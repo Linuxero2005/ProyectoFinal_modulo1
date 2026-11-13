@@ -1,0 +1,8 @@
+[1/7] Limpieza de residuos de ejecuciones anteriores
+[2/7] Verificacion del paquete, extraccion y auditoria de insumos
+[3/7] Captura de mediciones (3 capturas, pausa de 2s)
+./scripts/ejecutar.sh: line 60: ./scripts/capturar.sh: Permission denied
+
+[ejecutar] ERROR en la etapa 'captura': capturar.sh fallo en la captura 1 de 3
+[ejecutar] Flujo detenido; no hay informe de esta ejecucion.
+salida: 1

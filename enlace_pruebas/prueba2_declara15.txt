@@ -1,0 +1,2 @@
+ERROR: se declararon 15 registros pero solo hay 9
+salida: 1

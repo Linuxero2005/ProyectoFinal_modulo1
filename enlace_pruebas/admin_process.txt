@@ -1,0 +1,22 @@
+PRACTICA: control de un proceso propio con senales
+Usuario: becario19
+PID del proceso auxiliar (sleep 300): 1343747
+--- 2026-11-12 23:02:39 | 1. Proceso iniciado en segundo plano (STAT S = durmiendo)
+    PID    PPID USER     STAT     ELAPSED CMD
+1343747 1343737 becario+ S+         00:00 sleep 300
+--- 2026-11-12 23:02:40 | 2. Tras kill -STOP (STAT T = detenido)
+    PID    PPID USER     STAT     ELAPSED CMD
+1343747 1343737 becario+ T+         00:01 sleep 300
+--- 2026-11-12 23:02:41 | 3. Tras kill -CONT (STAT S = reanudado)
+    PID    PPID USER     STAT     ELAPSED CMD
+1343747 1343737 becario+ S+         00:02 sleep 300
+--- 2026-11-12 23:02:41 | 4. Tras kill -TERM
+El proceso 1343747 ya no existe (termino de forma controlada)
+
+JUSTIFICACION DE LAS SENALES
+- SIGSTOP (kill -STOP): suspende el proceso sin matarlo. No puede ser ignorada.
+- SIGCONT (kill -CONT): reanuda un proceso detenido sin perder su estado.
+- SIGTERM (kill -TERM): solicita una terminacion ordenada. Se prefiere sobre
+  SIGKILL (-9) porque el proceso puede cerrar archivos y liberar recursos.
+Solo se uso un proceso propio y de bajo impacto (sleep), sin afectar servicios
+ni procesos de otros usuarios.

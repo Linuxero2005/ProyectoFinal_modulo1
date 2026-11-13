@@ -1,0 +1,7 @@
+[1/7] Limpieza de residuos de ejecuciones anteriores
+[2/7] Verificacion del paquete, extraccion y auditoria de insumos
+ERROR: /home/becario19/sec_guard/capturas/estaticos/paquete_auditoria.tar.gz esta danado o no es un tar.gz valido
+
+[ejecutar] ERROR en la etapa 'auditoria': auditar.sh fallo (revisa el mensaje de arriba)
+[ejecutar] Flujo detenido; no hay informe de esta ejecucion.
+salida: 1

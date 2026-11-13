@@ -1,0 +1,6 @@
+AuditoriaCursoC
+4
+DISCO 50
+PROCESOS 5
+DISCO 60
+PROCESOS 7
