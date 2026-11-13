@@ -1,0 +1,16 @@
+salida: 0
+INFORME DE MONITOREO
+Etiqueta: AuditoriaCursoC
+Registros: 0
+
+Categoria DISCO
+  Sin datos
+
+Categoria PROCESOS
+  Sin datos
+
+Categoria PERMISOS
+  Sin datos
+
+Observaciones que cumplen condiciones de alerta: 0
+Umbrales utilizados con fines didacticos.

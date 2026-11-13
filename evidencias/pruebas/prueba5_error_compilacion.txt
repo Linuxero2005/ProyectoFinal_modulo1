@@ -1,0 +1,14 @@
+[1/7] Limpieza de residuos de ejecuciones anteriores
+[2/7] Verificacion del paquete, extraccion y auditoria de insumos
+[3/7] Captura de mediciones (3 capturas, pausa de 2s)
+[4/7] Normalizacion con etiqueta 'AuditoriaCursoC'
+[5/7] Compilacion de fuentes/sec_engine.c
+fuentes/sec_engine.c: In function ‘main’:
+fuentes/sec_engine.c:234:5: error: ‘palabra_invalida’ undeclared (first use in this function)
+  234 |     palabra_invalida;
+      |     ^~~~~~~~~~~~~~~~
+fuentes/sec_engine.c:234:5: note: each undeclared identifier is reported only once for each function it appears in
+
+[ejecutar] ERROR en la etapa 'compilacion': gcc reporto errores; no se ejecuta el analizador
+[ejecutar] Flujo detenido; no hay informe de esta ejecucion.
+salida: 1

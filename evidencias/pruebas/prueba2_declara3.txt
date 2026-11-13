@@ -1,0 +1,2 @@
+ERROR: hay mas registros que los 3 declarados
+salida: 1

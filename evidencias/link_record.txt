@@ -1,0 +1,29 @@
+== Archivo original (renombrado): evidencias/pruebas/doc_original.txt
+  File: evidencias/pruebas/doc_original.txt
+  Size: 116       	Blocks: 8          IO Block: 4096   regular file
+Device: 252,4	Inode: 26508185    Links: 2
+Access: (0644/-rw-r--r--)  Uid: ( 1040/becario19)   Gid: ( 1040/becario19)
+Access: 2026-11-10 04:18:23.480184185 +0000
+Modify: 2026-11-10 04:18:16.650125838 +0000
+Change: 2026-11-10 04:21:33.243805270 +0000
+ Birth: 2026-11-10 04:18:16.648125821 +0000
+
+== Enlace duro: evidencias/pruebas/hardlink.txt
+  File: evidencias/pruebas/hardlink.txt
+  Size: 116       	Blocks: 8          IO Block: 4096   regular file
+Device: 252,4	Inode: 26508185    Links: 2
+Access: (0644/-rw-r--r--)  Uid: ( 1040/becario19)   Gid: ( 1040/becario19)
+Access: 2026-11-10 04:18:23.480184185 +0000
+Modify: 2026-11-10 04:18:16.650125838 +0000
+Change: 2026-11-10 04:21:33.243805270 +0000
+ Birth: 2026-11-10 04:18:16.648125821 +0000
+
+== Enlace simbolico: enlace_pruebas
+  File: enlace_pruebas -> evidencias/pruebas/
+  Size: 19        	Blocks: 0          IO Block: 4096   symbolic link
+Device: 252,4	Inode: 84048704    Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: ( 1040/becario19)   Gid: ( 1040/becario19)
+Access: 2026-11-13 05:27:53.739091604 +0000
+Modify: 2026-11-13 05:27:44.551014558 +0000
+Change: 2026-11-13 05:27:44.551014558 +0000
+ Birth: 2026-11-13 05:27:44.551014558 +0000

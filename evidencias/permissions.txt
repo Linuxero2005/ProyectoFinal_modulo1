@@ -1,0 +1,12 @@
+Documentación de permisos
+
+-Directorios 'fuentes' y 'scripts':
+	7(rwx) para el propietario (en este caso yo soy el propietario)
+	5(r-x) acceso de lectura y ejecución para el grupo
+	0(---) se quitaron todos los permisos a terceros para proteger la integridad de cualquier archivo que estos contengan pensando en el principio de menor privilegio
+
+-Directorios 'capturas' 'preparados' 'preparados' 'resultados' 'evidencias':
+	7(rwx) acceso para el propietario
+	5(r-x) permisos de lectura y ejecución
+	5(r-x) permisos de lectura y ejecución
+-El propietario es el único que mantiene permisos de escritura lo cual permite la generación automatizada de informes para grupos y otros aplicando el criterio de menor privilegio evitando midificadores no autorizados en el entorno de desarrollo.
