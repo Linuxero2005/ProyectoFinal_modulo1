@@ -1,0 +1,30 @@
+INFORME DE MONITOREO
+Etiqueta: VideoDemo
+Registros: 15
+
+Categoria DISCO
+  Cantidad: 5
+  Suma: 180
+  Minimo: 36
+  Maximo: 36
+  Promedio: 36.00
+  Alertas: 0
+
+Categoria PROCESOS
+  Cantidad: 5
+  Suma: 35
+  Minimo: 7
+  Maximo: 7
+  Promedio: 7.00
+  Alertas: 0
+
+Categoria PERMISOS
+  Cantidad: 5
+  Suma: 0
+  Minimo: 0
+  Maximo: 0
+  Promedio: 0.00
+  Alertas: 0
+
+Observaciones que cumplen condiciones de alerta: 0
+Umbrales utilizados con fines didacticos.
